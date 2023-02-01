@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+}
+/*Navigation Bar*/
+.navbar-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index:5;
+    
+}
+
+
+.navbar-main ul{
+    display:flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar-main ul li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar-main ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 80px;
+    transition: all .5s ease;
+
+}
+
+.navbar-main ul li a:hover{
+    background-color: rgb(201, 195, 183);
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/*Home Section*/
+#home{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top:0;
+    right:0;
+    background: url() no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.headings-h1{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-size: 7rem;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.headings-h2{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+
+
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: cennter;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#about h1{
+    font-family:'Ubuntu', sans-serif;
+    color:rgba(0, 0, 0, 1);
+    font-size: 4rem;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#pic{
+    display: flex;
+    padding: 10%;
+}
+
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+#intro{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding:10px;
+}
+
+#intro h2{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Projects Section*/
+#projects{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: cennter;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#projects h1{
+    font-family:'Ubuntu', sans-serif;
+    color:rgba(0, 0, 0, 1);
+    font-size: 4rem;
+    text-align: center;
+    margin: 30px 0px;
+}
