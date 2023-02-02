@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website backend part",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serifagir/personal-website.git"
+  },
+  "author": "serifagir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serifagir/personal-website/issues"
+  },
+  "homepage": "https://github.com/serifagir/personal-website#readme"
+}
